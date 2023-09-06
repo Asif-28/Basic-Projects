@@ -1,0 +1,146 @@
+body{
+  background-color: #141414;
+}
+.todos-bg-container {
+  max-width: 70vw;
+  margin: 0 auto;
+  background-color: #000000;
+  margin-top: 2rem;
+  padding: 4rem 3rem;
+  border-radius: 20px;
+}
+
+/* Heading elements' styling */
+
+.todos-heading {
+  color: white;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+.create-task-heading {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.create-task-heading-subpart {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-heading {
+  margin-top: 50px;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 5px 15px 5px 15px;
+}
+
+
+.button:active{
+  transform: scale(0.95);
+}
+
+#undoDeleteBtn{
+  background-color: #fd1c1c;
+}
+
+#addTodoButton{
+  background-color: #1827a0fb;
+}
+
+#saveTodoButton{
+  background-color: #df30d3;
+}
+
+/* Todo Items styling */
+
+.label-container {
+  color: white;
+  width: 100%;
+  border: none;
+  border-color: #096f92;
+  border-radius: 10px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.icons-container {
+  text-align: right;
+  width: 30%;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 15px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 500px) {
+  .todos-bg-container {
+    max-width: 100vw;
+    background-color: #000000;
+    margin-top: 2rem;
+  }
+  
+}
